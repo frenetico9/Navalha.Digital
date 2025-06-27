@@ -1,0 +1,13 @@
+{
+  "name": "navalha-digital",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "shx mkdir -p public && shx cp -r components contexts hooks pages services App.tsx constants.ts index.css index.html index.tsx metadata.json types.ts public/"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "shx": "^0.3.4",
+    "typescript": "^5.4.5"
+  }
+}
